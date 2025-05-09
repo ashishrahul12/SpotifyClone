@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Your Favourite music is here</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="spotify-1759471_1920.jpg" alt="Spotify" width="50" height="50"> Spotify</li>
+            <li> Home</li>
+            <li> About</li>
+        </ul>
+    </nav>
+
+          <div class="container">
+              <div class="SongList"></div>
+              <h1>Best of NCS -  No Copyright Sounds</h1>
+              <div class="songItemContainer">
+                <div class="songItem">
+                    <img src="covers/1.jpg" alt="1">
+                    <span class="songName">Let me Love You</span>
+                    <span class="songlistplay"><span class="timestamp"> 05:34 <i id="0" class="fa songItemPlay fa-circle-play"> </i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/2.jpg" alt="1">
+                    <span class="songName">Cielo - Huma-Huma </span>
+                    <span class="songlistplay"><span class="timestamp"> 05:34 <i id="1" class="fa songItemPlay fa-circle-play"> </i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/3.jpg" alt="1">
+                    <span  class="songName">Bhula Dena - Salam-e-Ishq  </span>
+                    <span class="songlistplay"><span class="timestamp"> 05:34 <i id="2" class="fa songItemPlay fa-circle-play"> </i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/4.jpg" alt="1">
+                    <span class="songName">Tumhari-Kasam  </span>
+                    <span class="songlistplay"><span class="timestamp"> 05:34 <i id="3" class="fa songItemPlay fa-circle-play"> </i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/5.jpg" alt="1">
+                    <span class="songName">Na janna  </span>
+                    <span class="songlistplay"><span class="timestamp"> 05:34 <i id="4" class="fa songItemPlay fa-circle-play"> </i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/6.jpg" alt="1">
+                    <span class="songName">Sakhiyaan  </span>
+                    <span class="songlistplay"><span class="timestamp"> 05:34 <i id="5" class="fa songItemPlay fa-circle-play"> </i></span></span>
+                </div>
+              </div>
+              <div class="SongBanner"></div>
+            </div>
+
+            <div class="Bottom">
+                <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+                <div class="icons">
+                   <!-- fontawesome icons-->
+                   <i class="fas fa-3x fa-step-forward" id="next"></i>
+                   <i class="fas fa-3x fa-play-circle" id="masterPlay"></i>
+                   <i class="fas fa-3x fa-step-backward" id="previous"></i>
+                </div>
+                <div class="songInfo">
+                    <img src="sound-8563.gif" width="60px" alt="" id="gif"> <span id="masterSongName"> Salam-e-Ishq </span>
+
+                </div>
+
+            </div>
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/46dc4b7283.js" crossorigin="anonymous"></script>
+</body>
+</html>
